@@ -81,6 +81,7 @@
             border-radius: 1.2rem;
             display: flex; align-items: center; justify-content: center;
             flex-shrink: 0; transition: transform 0.5s ease;
+            overflow: hidden;
         }
 
         .dm-ad-container:hover .dm-logo { transform: scale(1.05) rotate(-2deg); }
